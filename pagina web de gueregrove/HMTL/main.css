@@ -1,0 +1,272 @@
+/*NAVBAR TEXTO */
+
+.fontsTamaño {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'bold', Arial, sans-serif;
+    font-size: 100%;
+    padding: 15px 15px 15px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buttonNav:hover {
+    border: 10px;
+    background-color: #f2f6e9;
+    transition: all 00.4s ease;
+    text-decoration: solid;
+    border-radius: 40px;
+    text-decoration: solid;
+}
+
+.navbar-nav li a {
+    color: white;
+}
+
+.navbar li a:hover {
+    color: #000;
+}
+
+.navbar {
+    background: #0a0a0a;
+    text-decoration: white;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #000;
+    background-size: 20%;
+    cursor: pointer;
+    font-style: bold;
+}
+
+
+/* BARRA DE BUSQUEDA */
+
+.search {
+    float: right;
+    margin: 7px;
+}
+
+.search-box {
+    position: center;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate (-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0%;
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+
+/* styling navlist */
+
+.navlist {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* styling navlist anchor element */
+
+.navlist a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlist-right {
+    float: right;
+}
+
+
+/* SPORTS TEXT */
+
+.backgroundText {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.sportsCategorys {
+    list-style: none;
+    padding: 10px;
+}
+
+.navSports div {
+    display: flex;
+}
+
+
+/* styling search bar */
+
+.search input[type=text] {
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.search button {
+    background-color: #fafcfd;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: 50%;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 10em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url ('imagenes / header-background.jpg');
+    background-size: auto;
+    background-position: auto;
+    position: center;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    min-height: 100%;
+    left: 0;
+    background: rgba ( 0, 0, 0, 0.6);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: left;
+    text-decoration: solid;
+}
+
+.description h1 {
+    color: #f2f6e9;
+    text-decoration: solid;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.imagen {
+    padding: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.description button {
+    border: 1px solid #0a0a0a;
+    background: #0a0a0a;
+    border-radius: 100px;
+    color: white;
+}
+
+.description button:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #0a0a0a;
+    border: 1px solid #0a0a0a;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.foto-front {
+    width: 100%;
+}
